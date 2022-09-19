@@ -1,20 +1,11 @@
-// Start by creating operator functions
-function add(num1, num2) {
-   let sum = num1 + num2;
-   return sum;
-} 
+// Button selectors
+const numberButtons = document.querySelectorAll('[data-number]');
+const operationButtons = document.querySelectorAll('[data-operation]');
+const equalsButton = document.querySelector('[data-equals]');
+const deleteButton = document.querySelector('[data-delete]');
+const allClearButton = document.querySelector('[data-all-clear]');
+const previousOperandTextElement = document.querySelector('[data-previous-operand]');
+const currentOperandTextElement = document.querySelector('[data-current-operand]');
 
- function subtract(num1, num2) {
-    let dif = num1 - num2;
-    return dif;
-}
 
-function multiply(num1, num2) {
-    let result = num1 * num2;
-    return result;
-}
 
-function divide (num1, num2) {
-    let quot = num1 / num2;
-    return quot;
-}
